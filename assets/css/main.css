@@ -1,0 +1,71 @@
+
+
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-button-container {
+  margin-top: 57px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: pink;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.img-wrong {
+  margin-top: 40px;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+body {
+  background-color: #fffdfd;
+  color: #740e12;
+  -webkit-animation: example infinite; 
+  animation-name: example;
+  animation-duration: 9s;
+}
+
+
+@-webkit-keyframes example {
+  0%   {background-color: rgb(233, 145, 86);}
+  25%  {background-color: rgb(74, 243, 59);}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: rgba(255, 0, 0, 0.253);}
+  25%  {background-color: rgba(43, 255, 0, 0.295);}
+  50%  {background-color: rgba(0, 0, 255, 0.356);}
+  100% {background-color: rgba(0, 128, 0, 0.404);}
+}
